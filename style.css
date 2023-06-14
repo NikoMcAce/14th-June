@@ -41,3 +41,13 @@ h1
     float: left;
     margin-left: 20px;
 }
+.your_photo
+{
+    height: 500px;
+    width: 500px;
+}
+.about
+{
+    display: flex;
+    
+}
