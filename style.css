@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;   
+}
+.green
+{
+    color: #00DFA2;
+}
+.header
+{
+    margin: 0px 7px;
+    min-height: 110px;
+    background-color: #213555;
+}
+.header ul li
+{
+    font-size: x-large;
+    padding-left: 20px;
+    margin-top: 38px;
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+    float: right;   
+}
+.header ul li:hover
+{
+    color: aquamarine;
+    transition: 500ms;
+    cursor: pointer;
+}
+li:first-child
+{
+    margin-right: 60px;
+}
+.header ul li:not(:last-child)
+{
+    border-left: solid 2px #00DFA2;
+}
+h1
+{
+    float: left;
+    margin-left: 20px;
+}
