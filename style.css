@@ -57,6 +57,7 @@ body {
 }
 .work
 {
+    margin: 0px 7px;
     border-radius: 6px;
     background-color: #84A7A1;
     padding: 20px;
