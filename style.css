@@ -1,67 +1,65 @@
 body {
-    background-color: black;
-    color: white;   
+  background-color: black;
+  color: white;
 }
-.green
+.green {
+  color: #00dfa2;
+}
+.header {
+  margin: 0px 7px;
+  min-height: 110px;
+  background-color: #213555;
+  border-radius: 6px;
+}
+.header h1 {
+  margin: 0;
+}
+.header ul li {
+  font-size: x-large;
+  padding-left: 20px;
+  margin-top: 38px;
+  list-style: none;
+  display: inline;
+  margin-left: 30px;
+  float: right;
+}
+.header ul li:hover {
+  color: aquamarine;
+  transition: 500ms;
+  cursor: pointer;
+}
+.header li:first-child {
+  margin-right: 60px;
+}
+.header ul li:not(:last-child) {
+  border-left: solid 2px #00dfa2;
+}
+.header h1 {
+  float: left;
+  margin-left: 20px;
+}
+.your_photo {
+  height: 500px;
+  width: 500px;
+}
+.about {
+  border-radius: 6px;
+  background-color: #4f709c;
+  display: flex;
+  padding: 40px;
+  margin: 10px 7px;
+}
+.about p {
+  margin-left: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  text-align: justify;
+}
+.listit
 {
-    color: #00DFA2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.header
+.listit ul
 {
-    margin: 0px 7px;
-    min-height: 110px;
-    background-color: #213555;
-    border-radius: 6px;
-}
-.header h1
-{
-    margin: 0;
-}
-.header ul li
-{
-    font-size: x-large;
-    padding-left: 20px;
-    margin-top: 38px;
-    list-style: none;
-    display: inline;
-    margin-left: 30px;
-    float: right;   
-}
-.header ul li:hover
-{
-    color: aquamarine;
-    transition: 500ms;
-    cursor: pointer;
-}
-li:first-child
-{
-    margin-right: 60px;
-}
-.header ul li:not(:last-child)
-{
-    border-left: solid 2px #00DFA2;
-}
-h1
-{
-    float: left;
-    margin-left: 20px;
-}
-.your_photo
-{
-    height: 500px;
-    width: 500px;
-}
-.about
-{
-    border-radius: 6px;
-    background-color: #4F709C;
-    display: flex;
-    padding: 40px;
-    margin: 10px 7px;
-}
-.about p{
-    margin-left: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
-    text-align: justify;
+    text-decoration: none;
 }
