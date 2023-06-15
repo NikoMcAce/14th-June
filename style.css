@@ -107,7 +107,6 @@ form *
 }
 form input
 {
-  
   height: 30px;
 }
 form textarea
@@ -126,6 +125,7 @@ form button
 }
 .mylinks
 {
+  border-radius: 6px;
   text-align: center;
 }
 .mylinks ul li{
