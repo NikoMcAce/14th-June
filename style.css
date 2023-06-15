@@ -124,5 +124,17 @@ form button
   font-size: larger;
   color: white;
 }
-
-
+.mylinks
+{
+  text-align: center;
+}
+.mylinks ul li{
+  font-size: x-large;  
+  list-style: none;
+  display: inline;
+}
+.mylinks ul 
+{
+  display: flex;
+  justify-content: space-around;
+}
