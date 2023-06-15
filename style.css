@@ -81,5 +81,48 @@ p
 {
   text-decoration: underline;
 }
+.contact
+{
+  padding: 20px;
+}
+.card
+{
+  margin: auto;  
+  border: #00dfa2 2px dotted;
+  border-radius: 9px;
+  width: 50%;
+}
+.card form
+{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+form *
+{
+  font-size: large;
+  padding: 10px;
+  border-radius: 6px;
+  margin:10px;
+}
+form input
+{
+  
+  height: 30px;
+}
+form textarea
+{
+  height: 100px;
+}
+form button 
+{
+  height: 40px;
+  width: 50%;
+  margin: 20px auto;
+  background-color: #4f709c;
+  border: 0px;
+  font-size: larger;
+  color: white;
+}
 
 
