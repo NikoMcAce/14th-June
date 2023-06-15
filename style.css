@@ -39,6 +39,8 @@ body {
   margin-left: 20px;
 }
 .your_photo {
+  border-radius: 6px;
+  box-shadow: #000 10px 15px 30px;
   height: 500px;
   width: 500px;
 }
