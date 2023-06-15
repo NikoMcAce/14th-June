@@ -126,6 +126,9 @@ form button
 .mylinks
 {
   border-radius: 6px;
+  background-color: #213555;
+  padding: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 .mylinks ul li{
@@ -137,4 +140,10 @@ form button
 {
   display: flex;
   justify-content: space-around;
+}
+.mylinks a 
+{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
 }
