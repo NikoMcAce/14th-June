@@ -88,9 +88,10 @@ p
 .card
 {
   margin: auto;  
-  border: #00dfa2 2px dotted;
+  border: #ECE5C7 2px dashed;
   border-radius: 9px;
   width: 50%;
+  margin-bottom: 10px;
 }
 .card form
 {
