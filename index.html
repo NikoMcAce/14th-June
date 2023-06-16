@@ -1,94 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment - 1</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <title>Assignment - 1</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
     <div class="header">
-        <h1 style="margin-left: 20px;margin-top: 18px;"><span class="green">N</span>iko<br><span class="green">M</span>c<span class="green">A</span>ce</h1>
-        <ul class="no-points">            
-            <li>Contact </li>
-            <li>Work </li>
-            <li>About </li>
-            <li>Home </li>
+        <h1 style="margin-left: 20px; margin-top: 18px">
+            <span class="green">N</span>iko<br /><span class="green">M</span>c<span class="green">A</span>ce
+        </h1>
+        <ul class="no-points">
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Home</a></li>
         </ul>
     </div>
-    <div class="about">
-
+    <div class="about" id="about">
         <div class="animg">
-            <img src="nikomcace.jpg" class="your_photo">
+            <img src="nikomcace.jpg" class="your_photo" />
         </div>
 
         <div class="para">
-            <p>Welcome to my page !
+            <p>
+                Welcome to my page ! I'am Raj Davande a student who is currently doing
+                his BSc IT (3rd) from CHARUSAT University.<br /><br />
+                I have been to several hackathons and have a proper control over
+                Python language, adding to that I also have undertaken the database
+                and programming language integration, where I can automate the day to
+                day database oriented tasks.<br /><br />
 
-                I'am Raj Davande a student who is currently doing his BSc IT (3rd) from CHARUSAT University.<br><br>
-                I have been to several hackathons and have a proper control over Python language, adding to that I also have undertaken the database and programming language integration, where I can automate the day to day database oriented tasks.<br><br>
-                
-                I have interest in automating tasks. I have made an autonomous drone that can fly and detect objects on its own, without the need of human intervention, while I also have created small automation projects like location based automation or home automation.<br><br>
-                
-                I have a website named nikomcace.com where in, I will soon be uploading my blogs, I also happen to run a YouTube channel, and considering those fields I have an intermediate experience in Adobe Photoshop, Final Cut Pro, Adobe Illustration, Logo and brochure making while also having a good grip over social media marketing.<br>
-                
-                Keeping those aside I'm also a writer. No not the romantic poet ones, the ones who write about tech !<br>
-                I write to the questions asked to me, on a platform called Quora, where I have crossed the 900k view mark.<br><br>
-                
-                Hope to see you around :)</p>
+                I have interest in automating tasks. I have made an autonomous drone
+                that can fly and detect objects on its own, without the need of human
+                intervention, while I also have created small automation projects like
+                location based automation or home automation.<br /><br />
+
+                I have a website named nikomcace.com where in, I will soon be
+                uploading my blogs, I also happen to run a YouTube channel, and
+                considering those fields I have an intermediate experience in Adobe
+                Photoshop, Final Cut Pro, Adobe Illustration, Logo and brochure making
+                while also having a good grip over social media marketing.<br />
+
+                Keeping those aside I'm also a writer. No not the romantic poet ones,
+                the ones who write about tech !<br />
+                I write to the questions asked to me, on a platform called Quora,
+                where I have crossed the 900k view mark.<br /><br />
+
+                Hope to see you around :)
+            </p>
         </div>
     </div>
-    
-    <div class="work">
-        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;margin-left: 45%;">My Portfolio</h1>
-        <hr>
+
+    <div class="work" id="Work">
+        <h1 style="
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+            sans-serif;
+          margin-left: 45%;
+        ">
+            My Portfolio
+        </h1>
+        <hr />
         <div class="listit">
-        <ul>
-            <li><h1>Projects</h1></li>
-            <ol>
-                <li><h2>AI Enabled Self flying Drone</h2></li>
-                <p> This project involves the development of an autonomous drone with unlimited range using Blynk IOT and live streaming facilities, which is capable of implementing OpenCV for object detection and performing certain tasks based on the detected objects. The drone is equipped with various sensors and modules, including GPS, camera, telemetry, and ESC, and is controlled through a mobile application developed using Blynk. The main objective of the project is to provide an efficient and advanced solution for aerial surveillance, search and rescue, and other applications that require autonomous and long-range drones with the ability to detect and identify objects in real-time. The project also includes various testing strategies and test cases to ensure the reliability and functionality of the drone. Future enhancements and improvements to the project include incorporating more advanced algorithms and technologies for improved object detection and navigation, as well as adding more sensors and modules for increased functionality and capabilities.</p>
-                <a href="https://drive.google.com/file/d/1KvqxFovH1_hkjZOty4O5revDXBQR4L-f/view?usp=sharing">Click here to see research Paper</a>
-                <li><h2>Knee Displacement Detection using IOT</h2></li>
-                <p>
-                    A knee displacement detector that uses an ESP32 and a time-of-flight sensor to detect the angle of the knee. With this project, I am able to display the live angle of the knee on an IoT app on a smartphone. This project is a great example of using technology to help monitor and manage health. I am proud of the work that I have put into this project and look forward to finding new ways to use technology to improve healthcare outcomes.
-                </p>
-                <li><h2>Automated Saline Controlling System Using IOT</h2></li>
-                <p>The Saline Controlling System is an IoT-based system that allows for remote control and monitoring of saline flow in a hospital. The system uses an ESP32 module, and servo motor to regulate the flow of saline. A mobile app installed on the nurse's phone provides control of the system and alerts the nurse when the saline bottle is empty. The app also provides real-time status updates for each patient in the hospital, allowing for better management of patient care.
-                    A research paper has also been published for the same.</p>
-                <a href="https://drive.google.com/file/d/1o-RdPW7Nkf4pgkli_E1XWjDxSzbARJ8S/view?usp=sharing">Click here for research paper certificate</a>
-                <li><h2>Social Distancing With Python And ML</h2></li>
-                <p>Since we are going through a pandemic, everyones finance was getting affected in one way or the other and the majority of the problem lied where an industry / company was not able to run due to Covid19 reasons. Govt. was imposing bans and all. So.....
+            <ul>
+                <li>
+                    <h1>Training & Certifications</h1>
+                </li>
+                <ol class="hori">
+                    <img class="small"
+                        src="https://media.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_100_100/0/1626275253364?e=1695254400&v=beta&t=UFGg6LHfHlUWWZFte_js10MbYFYViUO3-dij1NxFNu0" />
+                    <li>
+                        <a href="https://www.udemy.com/certificate/UC-95a254d2-88b4-4203-ae56-126e5c1b282d/">Udemy -
+                            Project Management -
+                            <i class="fa fa-external-link-square"></i></a>
+                    </li>
+                </ol>
+                <ol class="hori">
+                    <img class="small"
+                        src="https://media.licdn.com/dms/image/D4E0BAQHuuR34sthNNw/company-logo_100_100/0/1685630001515?e=1695254400&v=beta&t=cu0p6-0tCsS53Absoi5cOksnQE1Yygo6Xo2Xme89tOU" />
+                    <li>
+                        <a href="https://www.futurelearn.com/certificates/7q1gwx7">Accenture - Digital Skills Artificial
+                            Intelligence -
+                            <i class="fa fa-external-link-square"></i></a>
+                    </li>
+                </ol>
+                <ol class="hori">
+                    <img class="small"
+                        src="https://media.licdn.com/dms/image/C4D0BAQGexnfBxeEG-g/company-logo_100_100/0/1608039227697?e=1695254400&v=beta&t=OYCt2ig-eU5YrkJ_uMhsesq41zSLqH8VmrKaxMiAunc" />
+                    <li>
+                        <a href="https://www.coursera.org/account/accomplishments/verify/65EHTYK3PY84">Coursera - Deep
+                            Learning with PyTorch Skills Artificial
+                            Intelligence - <i class="fa fa-external-link-square"></i></a>
+                    </li>
+                </ol>
+                <ol class="hori">
+                    <img class="small"
+                        src="https://media.licdn.com/dms/image/C4D0BAQFi4GG2XwFHqQ/company-logo_100_100/0/1627026016891?e=1695254400&v=beta&t=Ac38ypzA0KXkJ46iv4GVcuXNWSoispO74Bc5ss9ccAI" />
+                    <li>
+                        <a href="https://drive.google.com/file/d/1LIBrSN7tdRcDug7cYM7oom-Ps1qif5EW/view">Internshala -
+                            AWS Cloud Computing Training -
+                            <i class="fa fa-external-link-square"></i></a>
+                    </li>
+                </ol>
+                <ol class="hori">
+                    <img class="small"
+                        src="https://media.licdn.com/dms/image/C560BAQEsapaVYleavg/company-logo_100_100/0/1542706266488?e=1695254400&v=beta&t=WMh3v8pU2UytzsM24yfrzQto2sd6t9Ir4jPTKstZ5JQ" />
+                    <li>
+                        <a href="https://drive.google.com/file/d/1LIBrSN7tdRcDug7cYM7oom-Ps1qif5EW/view">Kings College
+                            London - English Pre-Intermediate -
+                            <i class="fa fa-external-link-square"></i></a>
+                    </li>
+                </ol>
+                <li>
+                    <h1>Projects</h1>
+                </li>
+                <ol>
+                    <li>
+                        <h2>AI Enabled Self flying Drone</h2>
+                    </li>
+                    <p>
+                        This project involves the development of an autonomous drone with
+                        unlimited range using Blynk IOT and live streaming facilities,
+                        which is capable of implementing OpenCV for object detection and
+                        performing certain tasks based on the detected objects. The drone
+                        is equipped with various sensors and modules, including GPS,
+                        camera, telemetry, and ESC, and is controlled through a mobile
+                        application developed using Blynk. The main objective of the
+                        project is to provide an efficient and advanced solution for
+                        aerial surveillance, search and rescue, and other applications
+                        that require autonomous and long-range drones with the ability to
+                        detect and identify objects in real-time. The project also
+                        includes various testing strategies and test cases to ensure the
+                        reliability and functionality of the drone. Future enhancements
+                        and improvements to the project include incorporating more
+                        advanced algorithms and technologies for improved object detection
+                        and navigation, as well as adding more sensors and modules for
+                        increased functionality and capabilities.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1KvqxFovH1_hkjZOty4O5revDXBQR4L-f/view?usp=sharing">Click
+                        here to see research Paper</a>
+                    <li>
+                        <h2>Knee Displacement Detection using IOT</h2>
+                    </li>
+                    <p>
+                        A knee displacement detector that uses an ESP32 and a
+                        time-of-flight sensor to detect the angle of the knee. With this
+                        project, I am able to display the live angle of the knee on an IoT
+                        app on a smartphone. This project is a great example of using
+                        technology to help monitor and manage health. I am proud of the
+                        work that I have put into this project and look forward to finding
+                        new ways to use technology to improve healthcare outcomes.
+                    </p>
+                    <li>
+                        <h2>Automated Saline Controlling System Using IOT</h2>
+                    </li>
+                    <p>
+                        The Saline Controlling System is an IoT-based system that allows
+                        for remote control and monitoring of saline flow in a hospital.
+                        The system uses an ESP32 module, and servo motor to regulate the
+                        flow of saline. A mobile app installed on the nurse's phone
+                        provides control of the system and alerts the nurse when the
+                        saline bottle is empty. The app also provides real-time status
+                        updates for each patient in the hospital, allowing for better
+                        management of patient care. A research paper has also been
+                        published for the same.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1o-RdPW7Nkf4pgkli_E1XWjDxSzbARJ8S/view?usp=sharing">Click
+                        here for research paper certificate</a>
+                    <li>
+                        <h2>Social Distancing With Python And ML</h2>
+                    </li>
+                    <p>
+                        Since we are going through a pandemic, everyones finance was
+                        getting affected in one way or the other and the majority of the
+                        problem lied where an industry / company was not able to run due
+                        to Covid19 reasons. Govt. was imposing bans and all. So..... I had
+                        developed a python program that would identify the people and the
+                        distance between them. All this was made possible by the already
+                        existing CCTV cameras from the industry. My program is able to
+                        draw red and green bounding boxes on the people violating the
+                        social distancing norms. But what is it useful for ? If an
+                        industry can prove to the govt. that the safety measures against
+                        Covid19 are being followed then the govt. should have no issues to
+                        give a "Permit to run" to the industry. Hence benefiting both the
+                        industrialists and the employees in the state of a pandemic.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1urAdUAxUfccvzwOGwoKdIfepMDjQsgB0/view?usp=sharing">Click
+                        here for research paper certificate</a>
+                    <li>
+                        <h2>AI and ML based Lane Detection System</h2>
+                    </li>
+                    <p>
+                        A Lane Detection System that utilizes AI and ML to enable a car to
+                        drive without human intervention. With this system, I programmed
+                        an algorithm using Python that analyzes road images, identifies
+                        lane markings, and determines the optimal path for the car to
+                        follow. The system can detect lanes in various road conditions,
+                        making it an ideal solution for autonomous driving. I believe this
+                        project demonstrates the potential of AI and ML to revolutionize
+                        the automotive industry.
+                    </p>
+                </ol>
+                <li>
+                    <h1>Honors & Awards</h1>
+                </li>
+                <ol class="hori">
+                    <li>
+                        <a href="https://drive.google.com/file/d/1OxM8FrxP7A0-t4rlGXngk36zluP9P1lw/view?usp=sharing">
+                            First Rank In ISTEM Competition - Project Management -
+                            <i class="fa fa-external-link-square"></i></a>
+                    </li>
+                </ol>
+                <ol class="hori">
+                    <li>
+                        <a href="https://drive.google.com/file/d/1XzVN9hD1D3pk9YLizLsnUs11H5e4S086/view?usp=sharing
+                        ">
+                            Best Software Award - IRADA 2022
+                            <i class="fa fa-external-link-square"></i></a>
+                    </li>
+                </ol>
+                <ol class="hori">
+                    <li>
+                        <a href="https://drive.google.com/file/d/1XzVN9hD1D3pk9YLizLsnUs11H5e4S086/view?usp=sharing
+                        ">
+                            Second Rank in YuvaTech
+                            <i class="fa fa-external-link-square"></i></a>
+                    </li>
+                </ol>
+                <li>
+                    <h1>My Work</h1>
+                </li>
+                <ol>
+                    <li>
+                        <h2>UGSF</h2>
+                    </li>
+                    <p>
+                        Undergraduate student fellowship. Here I have worked with the
+                        faculty member to solve the challenges faced by the college using
+                        technology. Had created several android applications, websites
+                        that helped faculties in several ways. We also built automated IOT
+                        solutions to automate some devices across the college.
+                    </p>
 
-                    I had developed a python program that would identify the people and the distance between them. All this was made possible by the already existing CCTV cameras from the industry. My program is able to draw red and green bounding boxes on the people violating the social distancing norms. But what is it useful for ?
-                    If an industry can prove to the govt. that the safety measures against Covid19 are being followed then the govt. should have no issues to give a "Permit to run" to the industry. Hence benefiting both the industrialists and the employees in the state of a pandemic.</p>
-                <a href="https://drive.google.com/file/d/1urAdUAxUfccvzwOGwoKdIfepMDjQsgB0/view?usp=sharing">Click here for research paper certificate</a>
-                <li><h2>AI and ML based Lane Detection System</h2></li>
-                <p>A Lane Detection System that utilizes AI and ML to enable a car to drive without human intervention. With this system, I programmed an algorithm using Python that analyzes road images, identifies lane markings, and determines the optimal path for the car to follow. The system can detect lanes in various road conditions, making it an ideal solution for autonomous driving. I believe this project demonstrates the potential of AI and ML to revolutionize the automotive industry.</p>
-            </ol>
-            <li><h1>My Work</h1></li>
-            <ol>
-                <li><h2>UGSF</h2></li>
-                <p>Undergraduate student fellowship. Here I have worked with the faculty member to solve the challenges faced by the college using technology. Had created several android applications, websites that helped faculties in several ways. We also built automated IOT solutions to automate some devices across the college.</p>
-
-                <li><h2>UI Path Student Developer Ambasaddor</h2></li>
-                <p>Secured first rank in CHARUSAT University as a Student Developer Champion,went through several rounds of DSA and programming challenges to get selected for this position. Here we used to organize events for different colleges where we used to teach them various sectors where automation can be used and also taught them how to achieve those using UI Path automation.</p>
-                <a href="https://drive.google.com/file/d/1aoo3y5vkbJX6Rk5DRwvM-1yRzQOYjwTy/view?usp=sharing">Click here to see the leaderboard</a>
-                
-            </ol>
-        </ul>
+                    <li>
+                        <h2>UI Path Student Developer Ambasaddor</h2>
+                    </li>
+                    <p>
+                        Secured first rank in CHARUSAT University as a Student Developer
+                        Champion,went through several rounds of DSA and programming
+                        challenges to get selected for this position. Here we used to
+                        organize events for different colleges where we used to teach them
+                        various sectors where automation can be used and also taught them
+                        how to achieve those using UI Path automation.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1aoo3y5vkbJX6Rk5DRwvM-1yRzQOYjwTy/view?usp=sharing">Click
+                        here to see the leaderboard</a>
+                </ol>
+            </ul>
+        </div>
     </div>
-    </div>
 
-    <div class="contact">
-        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;margin-left: 44%; margin-bottom: 20px;">Contact Me</h1>
+    <div class="contact" id="Contact">
+        <h1 style="
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+            sans-serif;
+          margin-left: 44%;
+          margin-bottom: 20px;
+        ">
+            Contact Me
+        </h1>
         <div class="card">
             <form action="submit.php" method="get">
-                <input type="text" name="Name" placeholder="Name">
-                <input type="text" name="Email" placeholder="Email">
-                <input type="text" name="Subject" placeholder="Subject">
+                <input type="text" name="Name" placeholder="Name" />
+                <input type="text" name="Email" placeholder="Email" />
+                <input type="text" name="Subject" placeholder="Subject" />
                 <textarea name="Message" placeholder="Message"></textarea>
                 <button type="submit">Send</button>
             </form>
@@ -96,19 +285,24 @@
     </div>
     <div class="mylinks">
         <ul>
-            <li><a href="https://www.linkedin.com/in/raj-davande-a804b9194/?originalSubdomain=in">Linkedin</a></li>
+            <li>
+                <a href="https://www.linkedin.com/in/raj-davande-a804b9194/?originalSubdomain=in">Linkedin</a>
+            </li>
             <li><a href="https://www.nikomcace.com">NikoMcAce Website</a></li>
             <li><a href="https://github.com/nikomcace">GitHub</a></li>
-            <li><a href="https://www.instagram.com/raj_davande/?hl=en">Instagram</a></li>
+            <li>
+                <a href="https://www.instagram.com/raj_davande/?hl=en">Instagram</a>
+            </li>
             <li><a href="https://www.quora.com/profile/Raj-Davande">Quora</a></li>
             <li><a href="https://www.youtube.com/@rajdavande">YouTube (1st)</a></li>
-            <li><a href="https://www.youtube.com/@-nikomcace7855">YouTube (2nd)</a></li>
+            <li>
+                <a href="https://www.youtube.com/@-nikomcace7855">YouTube (2nd)</a>
+            </li>
         </ul>
     </div>
     <footer>
         <h4>Raj Davande - NikoMcAce 2023</h4>
     </footer>
-
-    
 </body>
+
 </html>

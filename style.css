@@ -22,8 +22,15 @@ body {
   display: inline;
   margin-left: 30px;
   float: right;
+  color: white;
 }
-.header ul li:hover {
+a
+{
+  color: white;
+  text-decoration: none;
+}
+a:hover
+{
   color: aquamarine;
   transition: 500ms;
   cursor: pointer;
@@ -159,4 +166,19 @@ footer h4
 {
   margin: 0px; 
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.small
+{
+  height: 50px;
+  width: 50px;
+  border-radius: 80px;
+}
+.hori
+{
+  margin-top: 15px;
+  display: flex;
+}
+.hori li
+{
+  margin: auto 10px;
 }
