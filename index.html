@@ -21,6 +21,33 @@
             <li><a href="#">Home</a></li>
         </ul>
     </div>
+    
+    <section id="mysection">
+        <h2>
+            NikoMcAce
+        </h2>
+        <div class="light"></div>
+    </section>
+    
+    
+
+    <script type="text/javascript">
+        var pos = document.documentElement;
+        pos.addEventListener('mousemove', e => {
+            pos.style.setProperty('--x', e.clientX + 'px')
+            pos.style.setProperty('--y', e.clientY + 'px')
+        })
+
+        var section = document.getElementById('mySection');
+        section.addEventListener('mouseenter', () => {
+            section.classList.add('hidemouse');
+        });
+
+        section.addEventListener('mouseleave', () => {
+            section.classList.remove('hidemouse');
+        });
+    </script>
+
     <div class="about" id="about">
         <div class="animg">
             <img src="nikomcace.jpg" class="your_photo" />
@@ -66,56 +93,68 @@
         </h1>
         <hr />
         <div class="listit">
+            <div class="training">
+                <ul>
+                    <li>
+                        <h1>Training & Certifications</h1>
+                    </li>
+                    <ol class="hori">
+                        <img class="small"
+                            src="https://media.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_100_100/0/1626275253364?e=1695254400&v=beta&t=UFGg6LHfHlUWWZFte_js10MbYFYViUO3-dij1NxFNu0" />
+                        <li>
+                            <a href="https://www.udemy.com/certificate/UC-95a254d2-88b4-4203-ae56-126e5c1b282d/">Udemy -
+                                Project Management -
+                                <i class="fa fa-external-link-square"></i></a>
+                        </li>
+                    </ol>
+                    <ol class="hori">
+                        <img class="small"
+                            src="https://media.licdn.com/dms/image/D4E0BAQHuuR34sthNNw/company-logo_100_100/0/1685630001515?e=1695254400&v=beta&t=cu0p6-0tCsS53Absoi5cOksnQE1Yygo6Xo2Xme89tOU" />
+                        <li>
+                            <a href="https://www.futurelearn.com/certificates/7q1gwx7">Accenture - Digital Skills
+                                Artificial
+                                Intelligence -
+                                <i class="fa fa-external-link-square"></i></a>
+                        </li>
+                    </ol>
+                    <ol class="hori">
+                        <img class="small"
+                            src="https://media.licdn.com/dms/image/C4D0BAQGexnfBxeEG-g/company-logo_100_100/0/1608039227697?e=1695254400&v=beta&t=OYCt2ig-eU5YrkJ_uMhsesq41zSLqH8VmrKaxMiAunc" />
+                        <li>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/65EHTYK3PY84">Coursera -
+                                Deep
+                                Learning with PyTorch Skills Artificial
+                                Intelligence - <i class="fa fa-external-link-square"></i></a>
+                        </li>
+                    </ol>
+                    <ol class="hori">
+                        <img class="small"
+                            src="https://media.licdn.com/dms/image/C4D0BAQFi4GG2XwFHqQ/company-logo_100_100/0/1627026016891?e=1695254400&v=beta&t=Ac38ypzA0KXkJ46iv4GVcuXNWSoispO74Bc5ss9ccAI" />
+                        <li>
+                            <a href="https://drive.google.com/file/d/1LIBrSN7tdRcDug7cYM7oom-Ps1qif5EW/view">Internshala
+                                -
+                                AWS Cloud Computing Training -
+                                <i class="fa fa-external-link-square"></i></a>
+                        </li>
+                    </ol>
+                    <ol class="hori">
+                        <img class="small"
+                            src="https://media.licdn.com/dms/image/C560BAQEsapaVYleavg/company-logo_100_100/0/1542706266488?e=1695254400&v=beta&t=WMh3v8pU2UytzsM24yfrzQto2sd6t9Ir4jPTKstZ5JQ" />
+                        <li>
+                            <a href="https://drive.google.com/file/d/1LIBrSN7tdRcDug7cYM7oom-Ps1qif5EW/view">Kings
+                                College
+                                London - English Pre-Intermediate -
+                                <i class="fa fa-external-link-square"></i></a>
+                        </li>
+                    </ol>
+
+                </ul>
+                <img class="certificate" src="/certificate.gif">
+            </div>
             <ul>
                 <li>
-                    <h1>Training & Certifications</h1>
-                </li>
-                <ol class="hori">
-                    <img class="small"
-                        src="https://media.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_100_100/0/1626275253364?e=1695254400&v=beta&t=UFGg6LHfHlUWWZFte_js10MbYFYViUO3-dij1NxFNu0" />
-                    <li>
-                        <a href="https://www.udemy.com/certificate/UC-95a254d2-88b4-4203-ae56-126e5c1b282d/">Udemy -
-                            Project Management -
-                            <i class="fa fa-external-link-square"></i></a>
-                    </li>
-                </ol>
-                <ol class="hori">
-                    <img class="small"
-                        src="https://media.licdn.com/dms/image/D4E0BAQHuuR34sthNNw/company-logo_100_100/0/1685630001515?e=1695254400&v=beta&t=cu0p6-0tCsS53Absoi5cOksnQE1Yygo6Xo2Xme89tOU" />
-                    <li>
-                        <a href="https://www.futurelearn.com/certificates/7q1gwx7">Accenture - Digital Skills Artificial
-                            Intelligence -
-                            <i class="fa fa-external-link-square"></i></a>
-                    </li>
-                </ol>
-                <ol class="hori">
-                    <img class="small"
-                        src="https://media.licdn.com/dms/image/C4D0BAQGexnfBxeEG-g/company-logo_100_100/0/1608039227697?e=1695254400&v=beta&t=OYCt2ig-eU5YrkJ_uMhsesq41zSLqH8VmrKaxMiAunc" />
-                    <li>
-                        <a href="https://www.coursera.org/account/accomplishments/verify/65EHTYK3PY84">Coursera - Deep
-                            Learning with PyTorch Skills Artificial
-                            Intelligence - <i class="fa fa-external-link-square"></i></a>
-                    </li>
-                </ol>
-                <ol class="hori">
-                    <img class="small"
-                        src="https://media.licdn.com/dms/image/C4D0BAQFi4GG2XwFHqQ/company-logo_100_100/0/1627026016891?e=1695254400&v=beta&t=Ac38ypzA0KXkJ46iv4GVcuXNWSoispO74Bc5ss9ccAI" />
-                    <li>
-                        <a href="https://drive.google.com/file/d/1LIBrSN7tdRcDug7cYM7oom-Ps1qif5EW/view">Internshala -
-                            AWS Cloud Computing Training -
-                            <i class="fa fa-external-link-square"></i></a>
-                    </li>
-                </ol>
-                <ol class="hori">
-                    <img class="small"
-                        src="https://media.licdn.com/dms/image/C560BAQEsapaVYleavg/company-logo_100_100/0/1542706266488?e=1695254400&v=beta&t=WMh3v8pU2UytzsM24yfrzQto2sd6t9Ir4jPTKstZ5JQ" />
-                    <li>
-                        <a href="https://drive.google.com/file/d/1LIBrSN7tdRcDug7cYM7oom-Ps1qif5EW/view">Kings College
-                            London - English Pre-Intermediate -
-                            <i class="fa fa-external-link-square"></i></a>
-                    </li>
-                </ol>
-                <li>
+
+
                     <h1>Projects</h1>
                 </li>
                 <ol>
@@ -142,7 +181,7 @@
                         increased functionality and capabilities.
                     </p>
                     <a href="https://drive.google.com/file/d/1KvqxFovH1_hkjZOty4O5revDXBQR4L-f/view?usp=sharing">Click
-                        here to see research Paper</a>
+                        here to see research Paper <i class="fa fa-external-link-square"></i></a>
                     <li>
                         <h2>Knee Displacement Detection using IOT</h2>
                     </li>
@@ -170,7 +209,7 @@
                         published for the same.
                     </p>
                     <a href="https://drive.google.com/file/d/1o-RdPW7Nkf4pgkli_E1XWjDxSzbARJ8S/view?usp=sharing">Click
-                        here for research paper certificate</a>
+                        here for research paper certificate <i class="fa fa-external-link-square"></i></a>
                     <li>
                         <h2>Social Distancing With Python And ML</h2>
                     </li>
@@ -190,7 +229,7 @@
                         industrialists and the employees in the state of a pandemic.
                     </p>
                     <a href="https://drive.google.com/file/d/1urAdUAxUfccvzwOGwoKdIfepMDjQsgB0/view?usp=sharing">Click
-                        here for research paper certificate</a>
+                        here for research paper certificate <i class="fa fa-external-link-square"></i></a>
                     <li>
                         <h2>AI and ML based Lane Detection System</h2>
                     </li>
@@ -213,7 +252,7 @@
                     <li>
                         <a href="https://drive.google.com/file/d/1urAdUAxUfccvzwOGwoKdIfepMDjQsgB0/view?usp=sharing
                         ">
-                        Best Research Paper Award
+                            Best Research Paper Award
                             <i class="fa fa-external-link-square"></i></a>
                     </li>
                 </ol>
@@ -221,7 +260,7 @@
                     <li>
                         <a href="https://drive.google.com/file/d/1JBoChmtWHc53UmDtXTqAT4smHRgZMzsf/view?usp=sharing
                         ">
-                        Winner Of Vadodara Innofest
+                            Winner Of Vadodara Innofest
                             <i class="fa fa-external-link-square"></i></a>
                     </li>
                 </ol>
@@ -229,7 +268,7 @@
                     <li>
                         <a href="https://drive.google.com/file/d/1aoo3y5vkbJX6Rk5DRwvM-1yRzQOYjwTy/view?usp=sharing
                         ">
-                        UI Path Student Developer Champion of CHARUSAT University
+                            UI Path Student Developer Champion of CHARUSAT University
                             <i class="fa fa-external-link-square"></i></a>
                     </li>
                 </ol>
